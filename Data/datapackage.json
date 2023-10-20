@@ -1,0 +1,112 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data/birthrate.csv",
+            "profile": "tabular-data-resource",
+            "name": "birthrate",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Birthrate",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Fatality",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "data": [
+                {
+                    "Year": 2008,
+                    "Birthrate": 31.12,
+                    "Fatality": 31.2
+                },
+                {
+                    "Year": 2009,
+                    "Birthrate": 28.84,
+                    "Fatality": 36.8
+                },
+                {
+                    "Year": 2010,
+                    "Birthrate": 28.3,
+                    "Fatality": 22.7
+                },
+                {
+                    "Year": 2011,
+                    "Birthrate": 29.46,
+                    "Fatality": 17.6
+                },
+                {
+                    "Year": 2012,
+                    "Birthrate": 31.35,
+                    "Fatality": 13.5
+                },
+                {
+                    "Year": 2013,
+                    "Birthrate": 33.64,
+                    "Fatality": 12.6
+                },
+                {
+                    "Year": 2014,
+                    "Birthrate": 34.72,
+                    "Fatality": 11.7
+                },
+                {
+                    "Year": 2015,
+                    "Birthrate": 30.83,
+                    "Fatality": 12.8
+                },
+                {
+                    "Year": 2016,
+                    "Birthrate": 32.13,
+                    "Fatality": 12.7
+                },
+                {
+                    "Year": 2017,
+                    "Birthrate": 24.93,
+                    "Fatality": 12.5
+                },
+                {
+                    "Year": 2018,
+                    "Birthrate": 23.9,
+                    "Fatality": 13.5
+                },
+                {
+                    "Year": 2019,
+                    "Birthrate": 23.2,
+                    "Fatality": 13.7
+                },
+                {
+                    "Year": 2020,
+                    "Birthrate": 22.92,
+                    "Fatality": 36.5
+                },
+                {
+                    "Year": 2021,
+                    "Birthrate": 23.8,
+                    "Fatality": 44.7
+                },
+                {
+                    "Year": 2022,
+                    "Birthrate": 19.7,
+                    "Fatality": 17.0
+                }
+            ]
+        }
+    ]
+}
